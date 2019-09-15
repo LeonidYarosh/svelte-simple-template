@@ -1,0 +1,12 @@
+.DS_Store
+.idea/
+.sonar/
+/target/
+/dist/
+/node_modules/
+/coverage/
+package-lock.json
+*.iml
+.scannerwork/
+/out/
+public/bundle.*
