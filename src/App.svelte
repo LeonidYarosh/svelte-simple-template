@@ -1,11 +1,16 @@
 <script>
+  import Slider from './slider/index.svelte'
+
   import './style.less'
 
-  export let name
 </script>
 
-<h1>
-  Hello
-  <span>{name}</span>
-  !
-</h1>
+<div>
+  <h1>
+    Hello
+    <span>world</span>
+    !
+  </h1>
+
+  <Slider />
+</div>
