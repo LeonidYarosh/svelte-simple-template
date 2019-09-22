@@ -1,16 +1,11 @@
 <script>
-  import Slider from './slider/index.svelte'
+    import Slider from './components/slider/index.svelte'
+    import HeaderCustom from './components/header/index.svelte'
 
-  import './style.less'
-
+    import './common/styles.less'
 </script>
 
-<div>
-  <h1>
-    Hello
-    <span>world</span>
-    !
-  </h1>
-
-  <Slider />
+<div class="main-container">
+    <HeaderCustom />
+    <Slider />
 </div>
